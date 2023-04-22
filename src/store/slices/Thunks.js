@@ -2,6 +2,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { auth } from "../../firebase/config";
 import { register } from "./AuthSlice";
 
+//register
 export const registerAuth = (email, password) => {
     return async ( dispatch ) => {
         const response = await createUserWithEmailAndPassword(auth, email, password);
