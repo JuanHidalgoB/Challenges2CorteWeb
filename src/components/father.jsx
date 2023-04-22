@@ -1,4 +1,3 @@
-import React from "react";
 import { useCallback } from "react";
 import { useState } from "react";
 import Son from "./son";
@@ -8,7 +7,7 @@ const Father = () => {
     const [valor, setValor] = useState(0);
 
     const incrementCB = useCallback(
-        (number) => setValor(valor => valor + number), []
+        (number) => setValor(val => val + number), []
     );
 
     return (
