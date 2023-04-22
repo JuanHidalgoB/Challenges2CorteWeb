@@ -1,12 +1,10 @@
-import './App.css'
+import React from 'react'
 
-function App() {
-
+export default function App() {
   return (
-    <>
-    Challenges
-    </>
+    <div>
+      Challenge15
+
+    </div>
   )
 }
-
-export default App
